@@ -12,7 +12,9 @@
         }
     ],
     "minimum-stability": "stable",
-
+    "require": {
+        "php": ">=5.4.0"
+    },
     "autoload": {
         "psr-4": {
             "kair4ik\\my-first-project\\": "src"
