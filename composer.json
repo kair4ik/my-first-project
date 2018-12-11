@@ -1,0 +1,21 @@
+{
+    "name": "kair4ik/my-first-project",
+    "description": "Simple package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kair4ik",
+            "email": "kair.21@mail.ru",
+            "homepage": "https://github.com/kair4ik/my-first-project",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "kair4ik\\my-first-project\\": "src"
+        }
+    }
+}
